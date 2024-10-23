@@ -1,0 +1,7 @@
+POST http://localhost:7071/api/encrypt
+Content-Type: application/json
+
+{
+  "account number": "12345",
+  "routing number": "123456789"
+}
