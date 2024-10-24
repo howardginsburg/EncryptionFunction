@@ -4,6 +4,9 @@
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AZURE_KEY_VAULT_ENDPOINT": "https://<your-key-vault-name>.vault.azure.net/",
-    "KEY_NAME": "<your-key-name>"
+    "ENCRYPT_KEY_NAME": "<your-encrypt-key-name>",
+    "SIGNING_KEY_NAME": "<your-signing-key-name>",
+    "DECRYPT_KEY_NAME": "<your-decrypt-key-name>",
+    "SIGNING_VALIDATION_KEY_NAME": "<your-signing-validation-key-name>"
   }
 }

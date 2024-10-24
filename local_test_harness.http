@@ -5,3 +5,13 @@ Content-Type: application/json
   "account number": "12345",
   "routing number": "123456789"
 }
+
+###
+
+POST http://localhost:7071/api/decrypt
+Content-Type: application/json
+
+{
+  "encrypted_payload": "nhT7HnQIDRuAvOsZhss2aIxV6EJGtqOFXstTx1N/eOPC5M3/vA2a4bAZ1M/KDx3gztExG4cQuhxcYyHs+iSr8Nk63n3JPabQ+5+C4fyjqM9By1e2rT98hW4Z0nRkTGmiNKUrYHSRAWGOncS/qBZul5N3IEI+AovV42FYRb0wUAEfc6ZUUjY/qRxb7Aj878D1yofw6MtH7yGJm2ojRJ9kTJiLfJvkuv0zpZVu87qUwi1aNGH6H6EpaC+b1vTddOh6H6vvaBRgwkVMsniO6UVCalYE4Okg7qwjqbmpl4cEJQCPKj9iNxynFY2h/8ieiga9GCUPMUJUrqU6LEd68i+WeQ==",
+  "signature": "fc5tL4HyHe+HWg1ra7KzELZfKhsF9N2r2goUHRwMH1701FXw/5CGq3jzCwe2ma2z2cI0mhv4tMeUA9d4a+ZLBwCpTLNEMzVJQfNGla87WLlUGbbXALMhx+grlX2IYVhxKCEjXH1nWJd0yDLfJP3PEewcF3SWeAyVk3+7QnQyVtoew9jo+sXN4dYadv+UfivzKFlMgZV7ewjbx46zMCCIvQIkB6ebt+LgWDpCqCsoWd45VrfAwvrT/Bj2KJH4ADSPvGmgVjVjOEYQYMQ+yabAzfxm8XYAXXoKAQ7D0lBn6qOK9hXxFZdNZD+k5o7mtYKv8Ky4KswG2v/6ioglyobHug=="
+}
